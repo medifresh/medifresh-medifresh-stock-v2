@@ -1,0 +1,9 @@
+﻿services:
+  - type: web
+    name: medifresh-stock-v2
+    env: node
+    region: frankfurt
+    plan: free
+    buildCommand: npm install && cd app && npm install && npm run build && cd ..
+    startCommand: node server.js
+    healthCheckPath: /health

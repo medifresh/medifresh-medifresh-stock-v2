@@ -1,0 +1,5 @@
+﻿[
+  {"name":"Seringues 10ml","ref":"SER310","qty":0,"arrivage":0,"seuil":50},
+  {"name":"Seringues 5ml","ref":"SER305","qty":6,"arrivage":0,"seuil":50},
+  {"name":"Gants L","ref":"HAL040","qty":200,"arrivage":0,"seuil":50}
+]
